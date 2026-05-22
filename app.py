@@ -18,9 +18,7 @@ import plotly.graph_objects as go
 # CONFIGURATION
 # ============================================================================
 
-APP_PASSWORD = "vera2026"
-
-MN_BLUE = "#003366"
+APP_MN_BLUE = "#003366"
 MN_GOLD = "#FFD700"
 MN_DARK = "#002B5C"
 MN_RED = "#CC0000"
@@ -840,9 +838,6 @@ def main():
         .stButton > button:hover {{ background-color: {MN_DARK}; color: white; }}
     </style>
     """, unsafe_allow_html=True)
-
-    if not check_password():
-        return
 
     # Load all data
     districts_df = load_districts()
