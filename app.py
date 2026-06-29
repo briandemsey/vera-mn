@@ -18,7 +18,6 @@ import plotly.graph_objects as go
 # CONFIGURATION
 # ============================================================================
 
-APP_MN_BLUE = "#003366"
 MN_BLUE = "#003366"
 MN_GOLD = "#FFD700"
 MN_DARK = "#002B5C"
